@@ -1,0 +1,75 @@
+/**
+ * @name Discord Black Amoled Theme
+ * @author Better Discord Community
+ * @version 1.0.0
+ * @description Enable the AMOLED dark theme for Discord for beautiful background colors like as the Android version (on Android, click 10 times on Dark in the Appearance settings). This theme does not interact with the Light theme and doesn't force you to switch to the Dark theme.
+ * @invite 0Tmfo5ZbORCRqbAd
+ * @website https://betterdiscord.app
+*/
+:root {
+    /*                BASE                  */
+    --blurple-replace: hsl(227, 58%, 65%);
+    --background-primary: rgb(0, 0, 0);
+    --background-secondary: #131417;
+    --background-secondary-alt: #131417;
+    --background-tertiary: #18191C;
+    --background-accent: #615f5f;
+    --background-floating: rgba(20, 20, 20);
+    --header-primary: rgb(255, 255, 255);
+    --header-secondary: #ffffff;
+    --elevation-low: 0 1px 0 rgba(0, 0, 0, 0.2) 1.5px 0 rgba(60, 60, 70, 0.05), 0 2px 0 rgba(40, 40, 50, 0.05);
+    --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+    --channels-default: #8A9293;
+    --channeltextarea-background: #202225;
+    --guild-header-text-shadow: 0 1px 1px rgba(7, 7, 7, 0.4);
+    --activity-card-background: #0f0f0f;
+    --interactive-normal: #B9BBBE;
+    --interactive-hover: hsl(0, 0%, 100%);
+    --interactive-active: #fff;
+    --interactive-muted: rgb(150, 0, 0);
+    --background-modifier-hover: rgba(121, 121, 121, 0.16);
+    --background-modifier-active: #222528;
+    --background-modifier-selected: rgba(82, 82, 82, 0.32);
+    --background-modifier-accent: hsla(0, 0%, 29%, 0.06);
+    --text-link: #00b0f4;
+    --text-normal: #ffffff;
+    --text-muted: #8A9293;
+    --deprecated-panel-background: #0f0f0f;
+    --deprecated-card-bg: rgba(34, 34, 34, 0.6);
+    --deprecated-card-editable-bg: rgba(32, 34, 37, 0.3);
+    --deprecated-store-bg: #292929;
+    --deprecated-quickswitcher-input-background: #242424;
+    --deprecated-quickswitcher-input-placeholder: hsla(0, 0%, 18%, 0.3);
+    --deprecated-text-input-bg: rgba(0, 0, 0, 0.1);
+    --deprecated-text-input-border: rgba(0, 0, 0, 0.3);
+    --deprecated-text-input-border-hover: #0e0e0e;
+    --deprecated-text-input-border-disabled: #242424;
+    --deprecated-text-input-prefix: #dcddde;
+    --background-accent-1: rgba(34, 34, 34, 0.1);
+    --background-accent-3: rgba(17, 17, 17, 0.3);
+}
+.members-3WRCEx,
+.members-3WRCEx > div {
+    background-color: black !important;
+}
+.container-2cd8Mz > div {
+    background-color: rgb(0, 0, 0)!important;
+}
+.scroller-kQBbkU::-webkit-scrollbar-track {
+    background-color:rgb(0, 0, 0);
+}
+.scroller-18M1mG > div {
+    background-color: rgb(32, 34, 37);
+}
+/*.reultsGroup-1BPR25 > div {
+    background-color: rgb(32, 34, 37)!important;
+}
+.container-2McqkF elevationBorderHigh-3drnJX > div {
+    background-color: rgb(32, 34, 37)!important;
+}*/
+.layer-2aCOJ3 > div {
+    background-color: rgb(32, 34, 37)!important;
+}
+.theme-dark .option-2KkUJO:after {
+    display:none;
+}
